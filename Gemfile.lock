@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.6.0)
+    ipaddress (0.8.0)
+    mac_address (0.0.2)
+      str_quote
+    str_quote (0.0.3)
+    terminal-table (1.4.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  ipaddress
+  mac_address
+  terminal-table

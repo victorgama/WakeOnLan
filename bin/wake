@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative '../lib/init.rb'
+
+require File.join(ROOT_PATH, 'lib', 'wake_on_lan')
+WakeOnLan.new.exec
