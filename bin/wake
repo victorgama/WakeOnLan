@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
-require_relative '../lib/init.rb'
+base_path = THIS_FILE = File.symlink?(__FILE__) ? File.readlink(__FILE__) : File.basedir(File.dirname(__FILE__))
+require File.expand_path(File.join(base_path, '../../lib/init.rb'))
 
 require File.join(ROOT_PATH, 'lib', 'wake_on_lan')
 WakeOnLan.new.exec
