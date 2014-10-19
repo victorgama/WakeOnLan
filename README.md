@@ -10,7 +10,8 @@ First, clone this repo:
 $ git clone https://github.com/victorgama/WakeOnLan.git
 ```
 Now, `cd` to the cloned repo and run `make`.
-You may want to run `make` using `sudo`, since it symlinks to `/usr/local/bin`
+You may want to run `make` using `sudo`, since it symlinks to `/usr/local/bin`.
+*Notice*: This assumes you have bundler installed, which will be used to install some dependencies.
 ```
 $ cd WakeOnLan && sudo make
 ```
