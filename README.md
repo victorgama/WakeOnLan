@@ -10,7 +10,7 @@ First, clone this repo:
 $ git clone https://github.com/victorgama/WakeOnLan.git
 ```
 Now, `cd` to the cloned repo and run `make`.
-You may want to run `make` using `sudo`, since it symlinks to `/usr/bin`
+You may want to run `make` using `sudo`, since it symlinks to `/usr/local/bin`
 ```
 $ cd WakeOnLan && sudo make
 ```
